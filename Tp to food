@@ -1,0 +1,7 @@
+x=-768.69921875
+
+y=253.3392333984375
+
+z= -1133.6561279296875
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,z)
