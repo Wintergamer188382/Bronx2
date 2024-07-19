@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Wintergamer188382/Bronx2/main/full%20gui"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Wintergamer188382/Bronx2/main/Gui"))()
