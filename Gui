@@ -1,0 +1,49 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Tha Bronx 2 Teleporter", "Ocean")
+
+local Tab = Window:NewTab("Teleports")
+local Section = Tab:NewSection("Teleports")
+
+Section:NewButton("RiceFarm TP", "Tp to rice farm", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wintergamer188382/Bronx2/main/Tp%20To%20RiceFarm"))()
+end)
+
+
+Section:NewButton("RiceSeller TP", "Tp to rice seller", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wintergamer188382/Bronx2/main/TP%20to%20rice%20seller"))()
+end)
+
+
+Section:NewButton("Apartment TP", "TP to apartment", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wintergamer188382/Bronx2/main/Tp%20to%20apartment"))()
+end)
+
+Section:NewButton("Food TP", "TP to Food", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wintergamer188382/Bronx2/main/Tp%20to%20food"))()
+end)
+
+Section:NewButton("Weed seller TP", "TP to weed seller", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wintergamer188382/Bronx2/main/Tp%20to%20weed%20seller"))()
+end)
+
+Section:NewButton("seed buyer TP", "TP to seed buyer", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wintergamer188382/Bronx2/main/seed%20buyer"))()
+end)
+
+
+Section:NewButton("GunStore TP", "TP to GunStore", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wintergamer188382/Bronx2/main/gun%20store%20tp"))()
+end)
+
+Section:NewButton("infinite yield", "open infinite yield", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+
+Section:NewButton("tp to bank tools", "tp to bank tools", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wintergamer188382/Bronx2/main/tp%20to%20bank%20tools"))()
+end)
+
+Section:NewButton("tp to bank vault", "tp to bank vault", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wintergamer188382/Bronx2/main/tp%20to%20bank%20vault"))()
+end)
