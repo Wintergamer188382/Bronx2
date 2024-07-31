@@ -1,0 +1,26 @@
+local workspace = game:GetService("Workspace")
+
+local function GetArms()
+    local Arms = {}
+   for _, Arm in workspace.CurrentCamera:GetChildren() do
+       if Arm:FindFirstChild("Sleeves") then
+           table.insert(Arms, Arm)
+       end
+   end
+   return Arms
+end
+
+for _, Arm in GetArms() do
+    if Arm then
+        for _, Part in Arm:GetChildren() do
+            if Part.Name == "Sleeves" then
+                Part:Destroy()
+            end
+
+            if Part:IsA("BasePart") then
+                Part.Color = Color3.fromRGB(255, 0, 238)
+                Part.Material = "Neon"
+            end
+        end
+    end
+end
